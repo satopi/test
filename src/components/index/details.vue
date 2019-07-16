@@ -243,7 +243,7 @@
 		color: #33373D;
 	}
 	.textBox>h2{
-		font-size: 1.8rem;
+		font-size: 1.5rem;
 	}
 	.textBox>p{
 		font-size: 1.3rem;

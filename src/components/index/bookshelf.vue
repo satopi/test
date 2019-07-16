@@ -358,14 +358,16 @@
     }
     #classifyList .mint-tab-container-item>.container .textBox>p{
     	color: #808080;
-    	font-size: 1.5rem;
+    	font-size: 1.1rem;
     }
     #classifyList .mint-tab-container-item>.container .textBox .icon-you-{
-    	float: right;
 	    color: #808080;
 	    font-size: 2rem;
 	    font-weight: bold;
-	    margin-right: 4%
+	    margin-right: 4%;
+	    margin-right: 17%;
+		position: relative;
+		top: 4px;
     }
     #classifyList .mint-tab-container-item>.container .picBox{
     	width: 6rem;
