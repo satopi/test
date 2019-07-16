@@ -355,9 +355,9 @@
 		font-size: 2.6vh;
 	}
 	.footerLink>ul>li{
-		font-size: 1.35rem;
+		font-size: 1.15rem;
 	}
 	.footerLink>ul>li>a{
-		font-size: 1.35rem;
+		font-size: 1.15rem;
 	}
 </style>
