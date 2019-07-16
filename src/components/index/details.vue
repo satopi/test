@@ -264,7 +264,8 @@
 		text-align: center;
 		padding: 2% 0;
 		border-radius: 99px;
-		margin-right: .9rem;
+		margin-right: 3%;
+    	box-sizing: border-box;
 		font-size: 1.38rem;
 	}
 	.btnList>li:last-child{
@@ -525,7 +526,7 @@
     }
     .list>li{
     	display: inline-block;
-    	width: 20%;
+    	width: 25%;
     	box-sizing: border-box;
     	white-space: normal;
     	padding: 2%;
@@ -542,6 +543,9 @@
     	font-weight: bold;
     	color: #33373D;
     	width: 100%;
+    	text-overflow: ellipsis;
+    	overflow: hidden;
+    	white-space: nowrap;
     }
     .list>li>p:nth-of-type(2){
     	color: #808080;

@@ -692,9 +692,12 @@
     	margin-left: .8rem;
     }
     .hotBookList h5{
-    	font-size: 1.4rem;
+    	font-size: 1.3rem;
     	margin-bottom: 1rem;
     	color: #33373D;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+    	overflow: hidden;
     }
     .hotBookList p{
     	font-size: 1.2rem;
