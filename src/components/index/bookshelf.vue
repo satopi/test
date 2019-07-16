@@ -376,11 +376,10 @@
     	position: relative;
     }
     #classifyList .mint-tab-container-item>.container .hotBookText p{
-    	font-size: 1.2rem;
+    	font-size: 1.1rem;
     }
     #classifyList .mint-tab-container-item>.container .hotBookAuthor span{
     	color: black;
-	    font-size: 1.2rem;
 	    opacity: 1;
     }
     #classifyList .mint-tab-container-item>.container .essayBookList>li{
@@ -390,12 +389,12 @@
     	position: absolute;
     	top: 0;
     	right: 0;
-    	font-size: 1.3rem;
+    	font-size: 1.1rem;
     	color: #808080;
     }
     #classifyList .mint-tab-container-item>.container .hotBookText>span>.icon-you-{
     	color: #808080;
-    	font-size: 2.2rem;
+    	font-size: 1.2rem;
     	font-weight: bold;
     	display: inline-block;
     	margin-bottom: .4rem;
@@ -406,7 +405,6 @@
     	bottom: 1rem;
     	right: 0;
     	color: #808080;
-    	font-size: 1.3rem;
     }
     .shelf-icon{
     	background-image: url(../../assets/img/user.svg);
