@@ -15,12 +15,12 @@
 			</div>
 			<ul class="form-list">
 				<li>
-					<i class="icon-user"></i>
+					<span><i class="icon-user"></i></span>
 					<input type="text" id="username" placeholder="请输入邮箱/个性账号"  v-model="value1"/>
 					<p v-show="block1">*请输入正确的邮箱！</p>
 				</li>
 				<li>
-					<i class="icon-lock"></i>
+					<span><i class="icon-lock"></i></span>
 					<input type="password" id="pwd" placeholder="请输入密码"  v-model="value2"/>
 					<p v-show="block2">*密码不能为空！</p>
 				</li>
@@ -100,13 +100,21 @@
 		overflow: hidden;
 		margin-bottom: 7%;
 	}
-	.form-list>li>i{
-		width: 3.5vh;
-	    height: 3.5vh;
+	.form-list>li span{
+		display: inline-block;
+		width: 9%;
+		height: 3.3vh;
+		background-color: white;
+		vertical-align: bottom;
+   		margin-right: -4px;
+	}
+	.form-list>li i{
+		width: 2.8vh;
+	    height: 2.7vh;
 	    background-color: white;
 	    float: left;
 	    margin-top: 4%;
-	    margin-right: 1%;
+	    /*margin-right: 1%;*/
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	}
