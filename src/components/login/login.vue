@@ -137,7 +137,7 @@
 		width: 90%;
 		border: 0;
 		padding: 2.5vh 0;
-		padding-bottom: 0.55vh;
+		padding-bottom: 0.5vh;
 		color: #61708F;
 		outline: none;
 		font-size: 1.5rem;
