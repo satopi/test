@@ -103,10 +103,12 @@
 	.form-list>li span{
 		display: inline-block;
 		width: 9%;
-		height: 3.3vh;
+		height: 5.3vh;
 		background-color: white;
 		vertical-align: bottom;
    		margin-right: -4px;
+    	padding-top: 11px;
+    	box-sizing: border-box;
 	}
 	.form-list>li i{
 		width: 2.8vh;
@@ -134,7 +136,7 @@
 		width: 90%;
 		border: 0;
 		padding: 2.5vh 0;
-		padding-bottom: 0.5vh;
+		padding-bottom: 0.44vh;
 		color: #61708F;
 		outline: none;
 		font-size: 1.5rem;
