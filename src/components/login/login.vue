@@ -110,6 +110,8 @@
     	padding-top: 11px;
     	padding: 10px 2.5px;
     	padding-left: 0;
+    	position: relative;
+    	top: -1px;
 	}
 	.form-list>li i{
 		width: 2.8vh;
