@@ -108,8 +108,8 @@
 		vertical-align: bottom;
    		margin-right: -4px;
     	padding-top: 11px;
-    	padding-bottom: 10px;
-    	box-sizing: border-box;
+    	padding: 10px 2.5px;
+    	padding-left: 0;
 	}
 	.form-list>li i{
 		width: 2.8vh;
