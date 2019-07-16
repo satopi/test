@@ -359,9 +359,9 @@
 		font-size: 2.6vh;
 	}
 	#rankList{
-	overflow: auto;
-	position: static;
-}
+		overflow: auto;
+		position: static;
+	}
 	#rank{
 		width: 22%;
 		height: 100%;
@@ -417,13 +417,14 @@
 		width: 72%;
 	}
 	.hotBookText h4{
-		margin-bottom: 1.2rem;
+		margin-bottom: .5rem;
 	}
 	.hotBookText p{
 		-webkit-line-clamp: 1;
+		font-size: 1.2rem;
 	}
 	.book-meta{
-		margin-top: 1.4rem;
+		margin-top: 1rem;
 	}
 	.essayBookList>li>a:after{
 		content: '';
