@@ -60,7 +60,7 @@
 	}
 	.s-box{
 		width: 70%;
-		margin-left: 5rem;
+		margin-left: 8%;
 		height: 27px;
 		border-radius: 99px;
 		background: #de1e49;

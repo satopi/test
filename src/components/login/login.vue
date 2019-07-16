@@ -101,11 +101,12 @@
 		margin-bottom: 7%;
 	}
 	.form-list>li>i{
-		width: 3vh;
-	    height: 3vh;
+		width: 3.5vh;
+	    height: 3.5vh;
+	    background-color: white;
 	    float: left;
 	    margin-top: 4%;
-	    margin-right: .8vh;
+	    margin-right: 1%;
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	}
@@ -134,6 +135,7 @@
 	input::-webkit-input-placeholder{
         color: #cdcdcd;
         font-size: 1.5rem;
+        padding-left: 2%;
     }
     .login-container>p{
     	color: #0091DE;

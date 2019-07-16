@@ -315,7 +315,7 @@
     	border-radius: 2px;
     	margin-top: 1%;
     	position: relative;
-    	padding: 0 1px;
+    	padding: 2px;
     }
     .container>h3>#time_day{
     	background: #F01742;

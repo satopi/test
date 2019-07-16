@@ -364,10 +364,11 @@
 }
 	#rank{
 		width: 22%;
+		height: 100%;
 		display: block;
 		position: fixed;
 		left: 0;
-		top: 8vh;
+		padding-top: 8vh;
 	}
 	#rank .mint-tab-item{
 		color: #808080;

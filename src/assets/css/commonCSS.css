@@ -24,7 +24,7 @@ a{
 .footerLink>ul>li{
 	float: left;
 	color: #33373D;
-	font-size: 1.6rem;
+	font-size: 1.45rem;
 	text-align: center;
 	width: 25%;
 	padding-left: 5%;
@@ -38,7 +38,7 @@ footer{
 }
 footer a{
 	color: #33373D;
-	font-size: 1.6rem;
+	font-size: 1.45rem;
 }
 .footerInfo{
 	width: 100%;
