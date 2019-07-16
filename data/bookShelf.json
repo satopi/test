@@ -1,0 +1,29 @@
+{
+	"books":{
+		"src1":"./data/img/bookshelf/book01.jpg",
+		"src2":"./data/img/bookshelf/book02.jpg",
+		"src3":"./data/img/bookshelf/book03.jpg"
+	},
+	"bookShelf":[
+		{
+			"src":"./data/img/bookshelf/shelf01.jpg",
+			"title":"裴太太你已婚",
+			"author":"雪色水晶",
+			"state":"尚未阅读",
+			"caption":"第927章",
+			"des":"番外45",
+			"time":"14小时前"
+		}
+	],
+	
+	"recently":[
+		{
+			"src":"./data/img/bookshelf/recent01.jpg",
+			"title":"喜妻盈盈",
+			"author":"涵叶今心",
+			"caption":"第一章",
+			"des":"光头一双",
+			"time":"10天前"
+		}
+	]
+}

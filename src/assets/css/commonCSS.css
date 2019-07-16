@@ -1,0 +1,313 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 1rem;
+	/*max-width: 500px;
+	margin: 0 auto;*/
+}
+html{
+font-size:75%; /* 10÷16=62.5% */
+} 
+a{
+	text-decoration: none;
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+	box-sizing: border-box;
+}
+.footerLink>ul{
+	overflow: hidden;
+}
+.footerLink>ul>li{
+	float: left;
+	color: #33373D;
+	font-size: 1.6rem;
+	text-align: center;
+	width: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	margin-bottom: 6%;
+}
+footer{
+	margin-top: 5%;
+}
+footer a{
+	color: #33373D;
+	font-size: 1.6rem;
+}
+.footerInfo{
+	width: 100%;
+	margin-bottom: 6%;
+}
+.footerInfo>a{
+	display: block;
+	width: 100%;
+	color: #808080;
+	text-align: center;
+	opacity: .7;
+	font-size: 1.8vh;
+}
+.backTop{
+	position: fixed;
+	z-index: 11;
+	bottom: 1rem;
+	right: 1rem;
+	width: 3.5rem;
+	height: 3.5rem;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 50%;
+}
+.backTop img{
+	display: block;
+	width: 70%;
+	margin: 15% auto;
+}
+
+header{
+		background-image: url(../../assets/img/navbar.png);
+		background-size: 100% 100%;
+	}
+#screen{
+	width: 100%;
+}
+.guide{
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: black;
+	transition: opacity .25s;
+	opacity: .6;
+	position: fixed;
+	top: 0;
+	z-index: 8;
+}
+.navbar{
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	background: white;
+	top: 5.2vh;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top: 1px solid rgba(253,152,75,.5);
+	overflow: hidden;
+}
+
+.navbar>ul{
+	width: 100%;
+	overflow: hidden;
+}
+.navbar>ul>li{
+	width: 33%;
+	box-sizing: border-box;
+	padding: 0 10%;
+	padding-top: 6%;
+	float: left;
+	text-align: center;
+}
+.navbar>ul>li>a{
+	color: #33373D;
+	font-size: 2.1vh;
+}
+.navbar>ul>li>a>span{
+	padding-top: 6px;
+    display: block;
+    font-size: 1.3rem;
+}
+.icon-zuo{
+	font-weight: bold;
+}
+.icon-chazhao{
+	font-size: 2.8vh;
+	font-weight: bold;
+}
+.p-icon{
+	background-image: url(../../assets/img/icon.png);
+	background-size: 234px 206px;
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 0 auto;
+}
+.p_indexIcon{
+	background-position: -104px 0px;
+}
+.p_sortIcon{
+	background-position: -52px 0px;
+}
+.p_rankIcon{
+	background-position: 0px -52px;
+}
+.p_welfareIcon{
+	background-position: -104px -52px;
+}
+.p_endBookIcon{
+	background-position: 0px -104px;
+}
+.p_personalIcon{
+	background-position: 0px 0px;
+}
+.bookshelf{
+	text-align: center;
+	width: 80%;
+	padding: 2% 0;
+	margin: 4% auto;
+	border: 1px solid #F01742;
+	border-radius: 27px;
+}
+.bookshelf>a{
+	color: #F01742;
+	font-size: 1.5rem;
+}
+.headerInfo{
+	width: 100%;
+	position: relative;
+	z-index: 9;
+	background: transparent;
+	overflow: hidden;
+	padding: 1.5% 0;
+	transition: background-color 100ms;
+}
+.headerInfo>h1{
+	color: white;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 2vh;
+	padding-top: 1.7%;
+}
+.headerInfo>a:nth-of-type(1){
+	display: inline-block;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 1%;
+	float: left;
+}
+.personNav{
+	float: right;
+	margin-top: 1.5%;
+	margin-right: 4%;
+}
+.headerInfo>a:nth-of-type(2){
+	display: inline-block;
+	float: right;
+	margin-top: 1.6%;
+	margin-right: 3%;
+}
+
+.essayBookList>li>a{
+	display: inline-block;
+	width: 100%;
+}
+.picBox{
+	width: 7.5rem;
+	display: block;
+	float: left;
+	margin-right: .5rem;
+	box-shadow: 0 4px 8px 0 rgba(51, 55, 61, 0.1);
+	border-radius: 2px;	
+}
+.book-meta{
+	overflow: hidden;
+	margin-top: 1.8rem;
+}
+.hotBookText{
+	overflow: hidden;
+}
+.hotBookText p{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	color: #808080;
+	font-size: 1.4rem;
+	margin-bottom: 0.8rem;
+	
+}
+.hotBookText h4{
+	color: #33373D;
+	font-size: 1.5rem;
+	margin-bottom: 1.2rem;
+}
+.bookTags{
+	float: right;
+}
+.hotBookAuthor{
+	float: left;
+	color: #808080;
+	opacity: .5;
+	/*font-size: 1.2rem;*/
+}
+.bookTags li{
+	float: left;
+	margin-right: 5px;
+	box-sizing: border-box;
+	font-size: .8rem;
+}
+.type{
+	color: #F16299;
+	border: 1px solid rgba(241,98,153,.3);
+}
+.state{
+	color: #f69a48;
+	border: 1px solid rgba(246,154,72,.3);
+}
+.mount{
+	color: #65B1F5;
+	border: 1px solid rgba(101,177,245,.3);
+}
+.essay-details{
+	color: #808080;
+	margin-top: 1rem;
+	font-size: 1.2rem;
+}
+.essayBookList>li{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-bottom: 1px solid #f0f1f2;
+}
+.BookList{
+	width: 100%;
+	overflow: hidden;
+}
+.BookList>li{
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 5%;
+	padding: 1%;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+.BookList>li:last-child{
+	margin-right: 0;
+}
+.BookList>li img{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(51, 55, 61, 0.1);
+	border-radius: 2px;
+}
+.BookList>li p:nth-of-type(1){
+	color: #33373D;
+	font-weight: bold;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: clip;
+	word-break: break-all;
+	font-size: 1.5rem;
+	margin-top: 10%;
+}
+.BookList>li p:nth-of-type(2){
+	margin-top: 0.35rem;
+	color: #808080;
+	font-size: 1.3rem;
+}
