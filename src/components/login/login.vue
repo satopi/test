@@ -109,6 +109,7 @@
    		margin-right: -4px;
     	padding-top: 11px;
     	padding: 10px 2.5px;
+      padding-bottom:11px;
     	padding-left: 0;
     	padding-bottom: 11px;
     	position: relative;
