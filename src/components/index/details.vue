@@ -243,7 +243,7 @@
 		color: #33373D;
 	}
 	.textBox>h2{
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 	.textBox>p{
 		font-size: 1.3rem;
@@ -265,8 +265,7 @@
 		padding: 2% 0;
 		border-radius: 99px;
 		margin-right: 3%;
-    	box-sizing: border-box;
-		font-size: 1.38rem;
+		font-size: 1.1rem;
 	}
 	.btnList>li:last-child{
 		width: 50%;
