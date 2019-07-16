@@ -130,7 +130,7 @@
 		width: 100%;
 		box-sizing: border-box;
 		padding: 4% 5%;
-		font-size: 2vh;
+		font-size: 1.2rem;
 		font-weight: bold;
 		color: #33373D;
 		padding-bottom: 2%;

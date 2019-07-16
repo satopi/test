@@ -212,7 +212,7 @@
     }
     .container h3{
     	width: 100%;
-    	font-size: 2.3vh;
+    	font-size: 1.4rem;
     	color: #33373D;
     	overflow: hidden;
     }

@@ -365,6 +365,7 @@
 	    color: #808080;
 	    font-size: 2rem;
 	    font-weight: bold;
+	    margin-right: 4%
     }
     #classifyList .mint-tab-container-item>.container .picBox{
     	width: 6rem;

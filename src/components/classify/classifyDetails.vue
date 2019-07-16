@@ -354,4 +354,10 @@
 		margin-top: 2%;
 		font-size: 2.6vh;
 	}
+	.footerLink>ul>li{
+		font-size: 1.35rem;
+	}
+	.footerLink>ul>li>a{
+		font-size: 1.35rem;
+	}
 </style>
