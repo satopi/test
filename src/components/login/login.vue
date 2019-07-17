@@ -107,17 +107,12 @@
 		background-color: white;
 		vertical-align: bottom;
    		margin-right: -4px;
-    	padding-top: 11px;
-    	padding: 10px 2.5px;
-     	padding-bottom:11px;
-    	padding-left: 0;
-    	padding-bottom: 11px;
     	position: relative;
     	top: -3px;
 	}
 	.form-list>li i{
-		width: 2.8vh;
-	    height: 2.7vh;
+		  width: 1.8rem;
+	    height: 1.8rem;
 	    background-color: white;
 	    float: left;
 	    margin-top: 4%;
