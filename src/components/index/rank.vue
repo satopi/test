@@ -16,7 +16,7 @@
 			</div>
 		</header>
 		<!--navbar-->
-		<i :class="guide"></i>
+		<i :class="guide" @click="shrink($event)"></i>
 		<transition enter-active-class="animated slideInDown" leave-active-class="animated slideOutUp">
 			<div class="navbar" v-show="show" style="animation-duration:100ms">
 				<ul>
@@ -450,7 +450,6 @@
     data() {
         return {
             show:false,
-            flag:0,
             iconfont:'iconfont',
             icon:'icon-caidan',
             guide:'',
@@ -478,8 +477,7 @@
    	methods:{
         // 下拉菜单 
          handleDown(a){
-        	this.flag++;
-        	if(this.flag%2==0){
+        	if(this.icon == 'icon-Delete'){
         		this.icon = 'icon-caidan'
         		this.guide = ''
         		a.target.parentNode.previousElementSibling.style.paddingLeft = ''
@@ -488,8 +486,19 @@
         		this.guide = 'guide'
         		a.target.parentNode.previousElementSibling.style.paddingLeft = '35.5vw'
         	}
-        	down(a,this.flag);
+        	down(a,this.icon);
         	this.show = !this.show
+        },
+        shrink(a){
+        	let b = a.target.previousElementSibling.firstElementChild.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild
+        	this.icon = 'icon-caidan'
+        	this.guide = ''
+        	b.parentNode.previousElementSibling.style.paddingLeft = ''
+        	b.parentNode.previousElementSibling.previousElementSibling.childNodes[0].style.color = 'white'
+			b.parentNode.previousElementSibling.style.color = 'white'
+			b.parentNode.nextElementSibling.childNodes[0].style.color = 'white'
+			b.parentNode.parentNode.style.background = ''
+			this.show = !this.show
         }
     }
 }
