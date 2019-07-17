@@ -410,7 +410,7 @@
 		padding: 5.6% 5%;
 	}
 	.picBox{
-		width: 25%;
+		width: 5rem;
 		margin-right: 3%;
 	}
 	.hotBookText{
