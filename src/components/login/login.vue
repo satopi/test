@@ -111,8 +111,6 @@
     	top: -3px;
 	}
 	.form-list>li i{
-		width: 1.8rem;
-	    height: 1.8rem;
 	    background-color: white;
 	    float: left;
 	    margin-top: 4%;
